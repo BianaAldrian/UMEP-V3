@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/SplashScreen.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: b760bc48f345f8848b2c5cc842a02fcb
+  - enabled: 1
+    path: Assets/Scenes/InteractiveMap.unity
+    guid: 7aebe6d748e8a56408428a2e355149d3
+  - enabled: 1
+    path: Assets/Scenes/LocationTracker.unity
+    guid: a6b315b07f631b54d912ef9801ed9b3e
+  - enabled: 1
+    path: Assets/Scenes/EvacuationMap.unity
+    guid: 5d7458b732464054f891b8ed895bb3d6
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 797ff735db67be3419abf6f38d3f5e81, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2d7ca02e014b04046845ae4d618e7e1e, type: 2}
