@@ -46,6 +46,7 @@ public class SetNav : MonoBehaviour
 
     void Update()
     {
+        reroute.gameObject.SetActive(QrCode.isActivated);
         if (QrCode.isActivated)
         {
             if (cubeIndex == 0)
